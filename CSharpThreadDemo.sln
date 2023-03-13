@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskvsThread", "TaskvsThread\TaskvsThread.csproj", "{3CA12DA1-1519-46CB-87A2-69E181E27B7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBuildingUnitTest", "CarBuildingUnitTest\CarBuildingUnitTest.csproj", "{5D91DD2F-368C-43E1-B543-4C054AF5A1B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3CA12DA1-1519-46CB-87A2-69E181E27B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CA12DA1-1519-46CB-87A2-69E181E27B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CA12DA1-1519-46CB-87A2-69E181E27B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D91DD2F-368C-43E1-B543-4C054AF5A1B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D91DD2F-368C-43E1-B543-4C054AF5A1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D91DD2F-368C-43E1-B543-4C054AF5A1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D91DD2F-368C-43E1-B543-4C054AF5A1B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
