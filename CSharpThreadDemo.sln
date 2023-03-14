@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskvsThread", "TaskvsThread\TaskvsThread.csproj", "{3CA12DA1-1519-46CB-87A2-69E181E27B7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskvsThread", "TaskvsThread\TaskvsThread.csproj", "{3CA12DA1-1519-46CB-87A2-69E181E27B7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBuildingUnitTest", "CarBuildingUnitTest\CarBuildingUnitTest.csproj", "{5D91DD2F-368C-43E1-B543-4C054AF5A1B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarBuildingUnitTest", "CarBuildingUnitTest\CarBuildingUnitTest.csproj", "{5D91DD2F-368C-43E1-B543-4C054AF5A1B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicThreadIntro", "ClassicThreadIntro\ClassicThreadIntro.csproj", "{E62C3B60-A70E-4CA7-BC1A-C1A90FAE2936}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5D91DD2F-368C-43E1-B543-4C054AF5A1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D91DD2F-368C-43E1-B543-4C054AF5A1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D91DD2F-368C-43E1-B543-4C054AF5A1B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E62C3B60-A70E-4CA7-BC1A-C1A90FAE2936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E62C3B60-A70E-4CA7-BC1A-C1A90FAE2936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E62C3B60-A70E-4CA7-BC1A-C1A90FAE2936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E62C3B60-A70E-4CA7-BC1A-C1A90FAE2936}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

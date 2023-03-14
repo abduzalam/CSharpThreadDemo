@@ -40,7 +40,7 @@ namespace TaskvsThread
                                               {
                                                   var t = new Thread(() =>
                                                   {
-                                                      suspensions.Add(carBuilding.BuildSuspension(1));
+                                                      suspensions.Add(carBuilding.BuildSuspension(40));
                                                   });
                                                   t.Start();
                                                   return t;
@@ -56,6 +56,9 @@ namespace TaskvsThread
 
             paintingThread.Start();
             engineThread.Join();
+
+            foreach (var suspThread in suspensionThreads)
+                suspThread.Join();
 
             Exception? thrownException = null;
 

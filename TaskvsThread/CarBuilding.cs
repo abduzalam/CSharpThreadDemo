@@ -32,8 +32,8 @@ namespace TaskvsThread
 
         virtual protected void Test(Body body, IEnumerable<Suspension> suspensions, Engine engine)
         {
-            if (suspensions.Sum(s => s.SupportedKg) >= body.Weight ||
-                    engine.Horsepower * 4 >= body.Weight)
+            if (suspensions.Sum(s => s.SupportedKg) <= body.Weight ||
+                    engine.Horsepower * 4 <= body.Weight)
                 throw new ArgumentException("The car weights too much!!");
                     
         }
